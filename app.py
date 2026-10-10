@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Experiment 8: CI/CD deployment successful! Version 1"
+    return "Experiment 8: CI/CD deployment successful! Version 2"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
